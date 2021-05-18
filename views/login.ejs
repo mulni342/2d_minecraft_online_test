@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+
+        * { margin: 0; box-sizing: border-box; }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            padding: 20px 20px;
+            background: black;
+            border-radius: 10px;
+        }
+
+        main input {
+            margin: 10px 0px 0px 0px;
+            font-size: 17px;
+        }
+
+        main button {
+            font-size: 17px;
+            width: 100%;
+            margin-top: 20px;
+            color: white;
+            background: gray;
+        }
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <form action="/login" method="post">
+            <input type="text" name="uid" placeholder="username" required><br>
+            <input type="password" name="pwd" placeholder="password" required><br>
+            <button>Login</button><br>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "grass",
+        "sprite": "/imgs/blocks/grass.png"
+    },
+    "2": {
+        "name": "grass",
+        "sprite": "/imgs/blocks/dirt.png"
+    },
+    "3": {
+        "name": "grass",
+        "sprite": "/imgs/blocks/stone.png"
+    }
+}
